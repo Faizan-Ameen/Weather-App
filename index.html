@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+      <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Weather App</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+            <link rel="stylesheet" href="style.css">
+      </head>
+
+      <body>
+            <div class="container">
+                  <header>
+                        <div class="input-area">
+                              <input type="search" name="" id="user-inp" placeholder="Search Location">
+                              <button class="searchbtn" onclick="myFun()">Search</button>
+                        </div>
+                  </header>
+
+                  <div class="country-name">
+                        <h1 class="name"></h1>
+                        <div class="status">
+                              <h1 class="cloud"></h1>
+                              <span class="deg"></span>
+                        </div>
+                  </div>
+
+                  <div class="result-area">
+                        <div class="more-info-about-weather">
+                              <div class="temp-first">
+                                    <div class="temp">
+                                          <h2>Real feel</h2>
+                                          <span class="real_feel"></span>
+                                    </div>
+                                    <div class="water-status">
+                                          <h2>Humidity</h2>
+                                          <span class="humidity"></span>
+                                    </div>
+                              </div>
+                              <div class="temp-second">
+                                    <div class="wind">
+                                          <h2>Wind</h2>
+                                          <span class="windd"></span>
+                                    </div>
+                                    <div class="pressure">
+                                          <h2>Pressure</h2>
+                                          <span class="press"></span>
+                                    </div>
+                              </div>
+                        </div>
+
+                  </div>
+            </div>
+
+            <script src="script.js"></script>
+      </body>
+
+</html>
